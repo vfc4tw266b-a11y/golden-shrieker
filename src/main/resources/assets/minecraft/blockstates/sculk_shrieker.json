@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "can_summon=false": {
+      "model": "golden_shrieker:block/sculk_shrieker"
+    },
+    "can_summon=true": {
+      "model": "golden_shrieker:block/sculk_shrieker_can_summon"
+    }
+  }
+}

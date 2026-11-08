@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "golden_shrieker",
+	"version": "${version}",
+	"name": "Golden Shrieker",
+	"description": "Lässt alle Sculk Shrieker golden leuchten, damit man sie sofort erkennt und nie mit anderen Sculk-Blöcken verwechselt. / Makes every Sculk Shrieker glow gold so you can spot it instantly.",
+	"license": "CC0-1.0",
+	"icon": "assets/golden_shrieker/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.goldenshrieker.client.GoldenShriekerClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.2",
+		"java": ">=25"
+	}
+}
